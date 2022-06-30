@@ -15,7 +15,7 @@ export const postsMock = [
       NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀`,
       },
 
-      { type: "anchor", text: "👉 jane.design/doctorcare" },
+      { type: "anchor", text: "https://jane.design/doctorcare" },
     ],
     publishedAt: new Date("2022-06-29 12:31:00"),
   },
@@ -34,7 +34,7 @@ export const postsMock = [
         text: `Test 🚀`,
       },
 
-      { type: "anchor", text: "👉 https://github.com/shenzuni" },
+      { type: "anchor", text: "https://github.com/shenzuni" },
     ],
     publishedAt: new Date("2022-02-29 12:31:00"),
   },
