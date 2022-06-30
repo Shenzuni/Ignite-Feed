@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+
+  max-width: 70rem;
+
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .main-container {
+    flex-direction: column;
+    max-width: none;
+  }
+}
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 49.5rem;
+  max-width: 100%;
+}
